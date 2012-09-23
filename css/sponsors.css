@@ -1,0 +1,64 @@
+/* CSS Document */
+
+#sponsorsAddForm {
+	overflow: hidden;
+	height: 0;
+}
+.sponsorsAddInput {
+	background: #444;
+	border: 1px solid #777;
+	margin: 2px 0;
+	padding: 5px;
+}
+.sponsorsAddInput label {
+	display: block;
+	float: left;
+	width: 50px;
+}
+.sponsorsAddInput input, .sponsorsAddInput select {
+	width: 370px;
+	background: #444;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+}
+.sponsorsAddSubmit { text-align: right; padding: 5px; }
+.sponsorsIndicator { text-align: right; }
+#sponsorsIndicator {
+	color: #7f7;
+}
+#sponsors {
+	list-style: none;
+	padding: 0;
+	margin: 2px auto 5px;
+	overflow: hidden;
+}
+#sponsors li, #sponsorsFullTime, #sponsorsAddSponsor, #sponsorsCollapse {
+	margin: 2px 0;
+	padding: 5px;
+	background: #333;
+	border: 1px solid #777;
+	overflow: hidden;
+}
+#sponsorsCollapse {
+	margin-top: 10px;
+}
+#sponsorsFullTime, #sponsorsAddSponsor {
+	background: #333;
+	border: 1px solid #777;
+}
+#sponsors .handle {
+	width: 15px;
+	font-size: 14px;
+	cursor: move;
+}
+#sponsors .name { 		color: #f77; }
+#sponsors .active { 	color: #7f7; }
+#sponsors .delete {	width: 20px; text-align: right; visibility: hidden; }
+#sponsors li:hover .delete {	width: 20px; text-align: right; visibility: visible; }
+#sponsors .delete a {	color: #f77; }
+#sponsors .enabled {	width: 20px; text-align: right; visibility: hidden; }
+#sponsors li:hover .enabled {	width: 20px; text-align: right; visibility: visible; }
+#sponsors .preview {	width: 20px; text-align: right; cursor: crosshair; visibility: hidden; }
+#sponsors li:hover .preview {	width: 20px; text-align: right; cursor: crosshair; visibility: visible; }
+#sponsors .time { 		width: 60px; text-align: right; }

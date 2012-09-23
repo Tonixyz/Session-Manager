@@ -1,0 +1,38 @@
+/* CSS Document */
+
+#ticker {
+	list-style: none;
+	padding: 0;
+	margin: 10px auto 5px;
+}
+#ticker li, #tickerNewTicker {
+	margin: 2px 0;
+	padding: 5px;
+	background: #333;
+	border: 1px solid #777;
+	overflow: hidden;
+	opacity: 1;
+}
+#ticker span.abbr {
+	color: #f77;
+	cursor: help;
+}
+#ticker .delete {
+	width: 20px;
+	text-align: right;
+}
+#ticker .delete a { color: #f77; }
+#tickerNewTicker {
+	background: #444;
+	border: 1px solid #777;
+}
+#tickerNewText {
+	width: 414px;
+	border: none;
+	background: none;
+	font-size: 16px;
+	color: #fff;
+}
+#tickerNewTicker a {
+	color: #7f7;
+}

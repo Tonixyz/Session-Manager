@@ -1,0 +1,82 @@
+/* CSS Document */
+
+body {
+	height: 100%;
+	background: #000;
+	margin: 0;
+	color: #f0f;
+	font-family: helvetica, sans-serif;
+}
+
+#trace {
+	display: none;
+	position: absolute;
+	left: 0;
+	height: 180px;
+	padding: 10px;
+	overflow: auto;
+	background: #333;
+	color: #00FF00;
+}
+
+#loaderBox {
+	position: absolute;
+	left: 10px;
+	width: 200px;
+	padding: 1px;
+	border: 1px solid #777;
+	display: none;
+}
+#loader {
+	height: 5px;
+	width: 0;
+	background: #777;
+}
+
+.container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: none;
+	color: #FFFF00;
+}
+
+#clock, #ticker {
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 100px;
+	background: rgba(0,0,0,.5);
+	font-size: 100px;
+}
+#clock {
+	padding: 0 10px;
+	color: #fff;
+	z-index: 50;
+}
+/*#clock {
+	top:  200px;
+	font-size: 400px;
+	line-height: 500px;
+}*/
+#ticker {
+	color: #fff;
+	text-align: right;
+	z-index: 49;
+	width: 1024px;
+}
+
+#galerie div {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #000;
+	font-size: 100px;
+}
