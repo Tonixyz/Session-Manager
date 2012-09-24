@@ -1,0 +1,1 @@
+EInfügen der Datei in /xampp/mysql/data/[Ordner]
